@@ -6,8 +6,10 @@ const color = document.querySelector('#color')
 
 // define more constants and variables here
 
+
 btn_toggle.onclick = () => {
   // your code here
+  btn_toggle.preventDefault();
 }
 
 // more codes for Search and Reset buttons here
